@@ -1,0 +1,11 @@
+@import "../../scss/colors";
+
+.star {
+  margin: 1px;
+  cursor: pointer;
+}
+
+.star--checked path {
+  fill: $color-main;
+  opacity: 1;
+}
